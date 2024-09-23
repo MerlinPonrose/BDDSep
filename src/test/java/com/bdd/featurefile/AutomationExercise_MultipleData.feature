@@ -20,7 +20,4 @@ Examples:
 |Winter Top|2|
 
 
-@reg
-Scenario: Validate the test scenario with searchbox
-Given User launch the browser and open the application "https://automationexercise.com/"
-When User click the product link
+
