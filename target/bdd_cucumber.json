@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-19T02:44:48.787Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2828700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.precondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.precondition1()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the product with data table",
+        "description": "",
+        "id": "to-demonstratte-data-table;validate-the-product-with-data-table",
+        "after": [
+          {
+            "result": {
+              "duration": 32300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.quitbrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.postcondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7004500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User launch the browser and open the application \"https://automationexercise.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://automationexercise.com/\"",
+                  "offset": 49
+                }
+              ],
+              "location": "AutomationExercise_test.launchbrowserr(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1670100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User click the product link",
+            "match": {
+              "location": "AutomationExercise_test.user_click_the_product_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3687100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User search the product in the search box",
+            "match": {
+              "location": "DataTable_AutomationExercise.user_search_the_product_in_the_search_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Product"
+                ]
+              },
+              {
+                "cells": [
+                  "Blue Top"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8156100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clcik the first product which is displayed",
+            "match": {
+              "location": "AutomationExercise_test.user_clcik_the_first_product_which_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4319700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enter the quantity and Name in the quantity textbox",
+            "match": {
+              "location": "DataTable_AutomationExercise.user_enter_the_quantity_and_Name_in_the_quantity_textbox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Quatity",
+                  "Name"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "test"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataTable"
+          }
+        ]
+      }
+    ],
+    "name": "To demonstratte data table",
+    "description": "",
+    "id": "to-demonstratte-data-table",
+    "keyword": "Feature",
+    "uri": "file:DataTable_AutomationExercise.feature",
+    "tags": []
+  }
+]
