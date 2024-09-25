@@ -8,10 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\neworkspace\\BDD_September\\src\\test\\java\\com\\bdd\\featurefile",
 glue="com.bdd.stepdefinition",
-plugin= {"pretty","html:target/cucmber","json:target/bdd_cucumber.json"},
-tags= {"DataTable"},
-dryRun=true,
-monochrome=true
+plugin= {"pretty","html:target/cucmber","json:target/bdd_cucumber.json"}
 )
 public class TestRunner {
 
